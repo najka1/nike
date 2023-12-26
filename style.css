@@ -1,0 +1,25 @@
+html{
+	background-color: #D3D3D3;
+}
+.glavni{
+	display:inline;
+	text-align:center;
+}
+#png{
+	height:40px;
+	display:inline;
+}
+.prvi{
+	padding-top: 10px;
+	padding-bottom:0px;
+}
+.napis{
+	font-size:100px;
+	text-align:center;
+	padding: 0px;
+}
+#album{
+	height: 400px;
+}
+.cevlji{
+	text-align:center;
