@@ -518,11 +518,15 @@ button {
 
 #canvas{
      position: absolute;
-     left: 10px;
-     top: 260px;
-     z-index: 2;
-     opacity: 0.6;
+     max-width: 100%;
+     z-index: 20;
+     scale: 0.32;
+     translate: -93% 47%;
+     rotate: 355deg;
+     transform: skew(359deg, -1deg);
+ 
 }
+
 
 .blu {
      color: black;
@@ -530,10 +534,18 @@ button {
 }
 
 #svg{
-     border: solid black 1px;
-     background-color: white;
+    position: absolute;
+    max-width: 100%;
+    z-index: 20;
+     scale: 0.282;
+    translate: -68.5% -14%;
+    transform: skew(359deg, -1deg);
+    
 }
+#svg path{
+     fill: rgb(252,252,252);
 
+}
 .glasses .glasses_box {
      text-align: center;
      border: #555556 solid 1px;
